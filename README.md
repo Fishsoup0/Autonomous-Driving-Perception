@@ -2,7 +2,7 @@
 A Comprehensive Review of 3D Object Detection in Autonomous Driving: Technological Advances and Future Directions
 <p align="center">
     <a href="https://arxiv.org/abs/你的论文链接">
-        <img width="765" alt="image" src="assets/title.png">
+        <img width="765" alt="image" src="assets/image.jpg">
     </a>
 </p>
 
