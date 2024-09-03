@@ -34,7 +34,7 @@ This repository will be actively maintained with continuous updates on the lates
 
 - **Paper Title**: A Comprehensive Review of 3D Object Detection in Autonomous Driving: Technological Advances and Future Directions
 - **Authors**: [Yu Wang](https://scholar.google.com/citations?user=EsZuitIAAAAJ&hl=zh-TW), Shaohua Wang, Yicheng Li，Mingchun Liu
-- **Link to Paper**: [arXiv](https://arxiv.org/abs/你的论文链接)
+- **Link to Paper**: [arXiv](https://arxiv.org/abs/2408.16530)
 
 ## Abstract
 
