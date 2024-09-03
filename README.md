@@ -87,35 +87,20 @@ In recent years, 3D object perception has become a crucial component in the deve
 
 ## Vehicle-Road Collaboration Datasets
 
-1. **OPV2V**
+1. **OPV2V V2X-Sim V2XSet**
    - **Type**: Simulated, Lidar (L), Camera (C)
    - **Use Cases**: V2V communication.
    - **Link**: [OPV2V Dataset](https://github.com/DerrickXuNu/OpenCOOD)
 
-2. **V2X-Sim**
-   - **Type**: Simulated, Lidar (L), Camera (C), GPS/IMU
-   - **Use Cases**: V2V, V2I communication.
-   - **Link**: [V2X-Sim Dataset](https://github.com/AIR-THU/DAIR-V2X)
-
-3. **V2XSet**
-   - **Type**: Simulated, Lidar (L), Camera (C)
-   - **Use Cases**: V2V, V2I communication.
-   - **Link**: [V2XSet Dataset](https://github.com/AIR-THU/DAIR-V2X)
-
-4. **Rope3D**
+2. **DAIR-V2X Rope3D**
    - **Type**: Real, Camera (C), GPS/IMU
    - **Use Cases**: Camera-based localization.
-   - **Link**: [Rope3D Dataset](https://github.com/MasterHow/Rope3D)
+   - **Link**: [Rope3D Dataset](https://thudair.baai.ac.cn/coop-forecast)
 
-5. **DAIR-V2X**
+3. **TUMTraf V2X**
    - **Type**: Real, Lidar (L), Camera (C), GPS/IMU
-   - **Use Cases**: V2I communication, sensor fusion.
-   - **Link**: [DAIR-V2X Dataset](https://thudair.baai.ac.cn/index)
-
-6. **V2X-Real**
-   - **Type**: Real, Lidar (L), Camera (C), GPS/IMU
-   - **Use Cases**: V2V, V2I, I2I communication.
-   - **Link**: [V2X-Real Dataset](https://github.com/AIR-THU/DAIR-V2X)
+   - **Use Cases**:  V2I
+   - **Link**: https://tum-traffic-dataset.github.io/tumtraf-v2x/
 # Simulators
 
 ## CARLA Simulator
