@@ -114,6 +114,131 @@ In recent years, 3D object perception has become a crucial component in the deve
 - **Description**: AirSim is a cross-platform open-source simulator developed by Microsoft. It supports the simulation of drones, cars, and other vehicles in 3D environments. AirSim is compatible with Unreal Engine and offers APIs for deep integration with machine learning frameworks.
 - **Link**: [Microsoft AirSim](https://github.com/microsoft/AirSim)
 
+# High-Quality Papers on 3D Object Detection
+
+## Camera-Based 3D Object Detection
+
+1. **Mono3D: Monocular 3D Object Detection for Autonomous Driving**
+   - **Description**: Introduces Mono3D, a method for predicting 3D object proposals from a single image using a multi-view approach. Pioneering work in monocular 3D object detection.
+   - **Link**: [Mono3D](https://arxiv.org/abs/1608.07711)
+   - **Year**: 2016
+
+2. **M3D-RPN: Monocular 3D Region Proposal Network for Object Detection**
+   - **Description**: Presents a region proposal network that directly predicts 3D bounding boxes from monocular images, advancing the state-of-the-art in monocular 3D detection.
+   - **Link**: [M3D-RPN](https://arxiv.org/abs/1907.06038)
+   - **Year**: 2019
+
+3. **MonoDTR: Monocular 3D Object Detection with Depth-Aware Transformer**
+   - **Description**: A recent method that leverages depth-aware transformers for monocular 3D object detection, achieving state-of-the-art results.
+   - **Link**: [MonoDTR](https://arxiv.org/abs/2203.10981)
+   - **Year**: 2022
+
+## Lidar-Based 3D Object Detection
+
+1. **VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection**
+   - **Description**: One of the first methods to directly apply deep learning on raw point clouds, using voxelization and 3D convolutional networks for 3D object detection.
+   - **Link**: [VoxelNet](https://arxiv.org/abs/1711.06396)
+   - **Year**: 2018
+
+2. **PointPillars: Fast Encoders for Object Detection from Point Clouds**
+   - **Description**: Uses vertical columns (pillars) to encode point cloud data, enabling fast and efficient 3D object detection, widely used in real-time applications.
+   - **Link**: [PointPillars](https://arxiv.org/abs/1812.05784)
+   - **Year**: 2019
+
+3. **CenterPoint: Center-based 3D Object Detection and Tracking**
+   - **Description**: A more recent approach that represents objects as points and shows strong performance on both detection and tracking tasks.
+   - **Link**: [CenterPoint](https://arxiv.org/abs/2006.11275)
+   - **Year**: 2020
+
+## Fusion-Based 3D Object Detection
+
+1. **MV3D: Multi-View 3D Object Detection Network**
+   - **Description**: Combines RGB images and lidar point clouds for robust 3D object detection, a pioneering work in multi-sensor fusion.
+   - **Link**: [MV3D](https://arxiv.org/abs/1611.07759)
+   - **Year**: 2017
+
+2. **AVOD: Aggregated View Object Detection in Autonomous Driving**
+   - **Description**: A two-stage object detection framework that combines lidar point clouds with RGB images, achieving high accuracy in 3D detection.
+   - **Link**: [AVOD](https://arxiv.org/abs/1712.02294)
+   - **Year**: 2018
+
+3. **TransFusion: Robust LiDAR-Camera Fusion for 3D Object Detection with Transformers**
+   - **Description**: A recent method that uses transformers to achieve robust lidar-camera fusion for 3D object detection, pushing the boundaries of fusion techniques.
+   - **Link**: [TransFusion](https://arxiv.org/abs/2203.11496)
+   - **Year**: 2022
+
+
+# High-Quality Papers on 3D Occupancy Prediction
+
+1. **OccNet: Occupancy Networks for 3D Reconstruction in a Single Forward Pass**
+   - **Description**: Introduces Occupancy Networks (OccNet), a deep learning framework for predicting continuous occupancy values in 3D space, enabling high-quality and detailed 3D reconstruction from sparse inputs.
+   - **Link**: [OccNet](https://arxiv.org/abs/1905.09662)
+   - **Year**: 2019
+
+2. **Predicting Sharp and Accurate Occupancy Grids Using Variational Autoencoders**
+   - **Description**: Proposes the use of variational autoencoders (VAEs) to predict sharp and accurate 3D occupancy grids from lidar data, improving the reliability of occupancy predictions in autonomous driving.
+   - **Link**: [Predicting Sharp Occupancy Grids](https://arxiv.org/abs/2007.09718)
+   - **Year**: 2020
+
+3. **Deep Occupancy Flow: 3D Motion Prediction from Partial Observations**
+   - **Description**: A recent work that combines occupancy prediction with motion flow estimation, enabling the prediction of dynamic 3D occupancy grids from partial observations, particularly useful for autonomous driving.
+   - **Link**: [Deep Occupancy Flow](https://arxiv.org/abs/2203.17292)
+   - **Year**: 2022
+  
+# High-Quality Papers on Streaming Perception
+
+1. **StreamYOLO: Real-Time Object Detection for Streaming Perception**
+   - **Description**: StreamYOLO is designed for real-time object detection in streaming perception scenarios, optimizing latency and accuracy by employing a novel feature alignment mechanism. It’s particularly suited for applications requiring continuous perception, such as autonomous driving.
+   - **Link**: [StreamYOLO](https://arxiv.org/abs/2301.02078)
+   - **Year**: 2023
+
+2. **Towards Streaming Perception**
+   - **Description**: This paper introduces the concept of streaming perception, focusing on real-time processing of sensor data to maintain continuous perception in dynamic environments. The authors propose new benchmarks and models to handle the challenges of streaming data.
+   - **Link**: [Towards Streaming Perception](https://arxiv.org/abs/2207.02174)
+   - **Year**: 2022
+
+3. **STM: SpatioTemporal Modeling for Efficient Online Video Object Detection**
+   - **Description**: STM (SpatioTemporal Modeling) enhances online video object detection by integrating spatial and temporal features to maintain high accuracy and efficiency in streaming perception scenarios, addressing the challenges of real-time processing.
+   - **Link**: [STM](https://arxiv.org/abs/1912.05083)
+   - **Year**: 2020
+  
+# High-Quality Papers on End-to-End Autonomous Driving
+
+1. **End-to-End Driving via Conditional Imitation Learning**
+   - **Description**: This paper introduces a framework for end-to-end autonomous driving using conditional imitation learning. The model learns to predict driving actions directly from sensory input based on high-level commands, effectively bridging the gap between perception and control.
+   - **Link**: [Conditional Imitation Learning](https://arxiv.org/abs/1710.02410)
+   - **Year**: 2018
+
+2. **ChauffeurNet: Learning to Drive by Imitating the Best and Synthesizing the Worst**
+   - **Description**: ChauffeurNet combines imitation learning with data augmentation techniques to handle challenging driving scenarios. The model learns end-to-end driving policies by imitating expert drivers while also synthesizing difficult driving situations to improve robustness.
+   - **Link**: [ChauffeurNet](https://arxiv.org/abs/1812.03079)
+   - **Year**: 2018
+
+3. **Learning by Cheating: Imitating Features from Graphical Environments for Real-World Reinforcement Learning**
+   - **Description**: This paper presents a novel approach where a model is first trained in a simulated environment using rich graphical features, and then fine-tuned in the real world. This method allows for the transfer of end-to-end driving skills from simulation to reality, leveraging the advantages of both environments.
+   - **Link**: [Learning by Cheating](https://arxiv.org/abs/1912.12294)
+   - **Year**: 2020
+# High-Quality Papers on Vehicle-Road Collaboration (V2X Communication)
+
+1. **Cooperative Perception with V2X Communication: Exploring the Design Space**
+   - **Description**: This paper explores the design space for cooperative perception using V2X communication, analyzing the trade-offs between different communication strategies and their impact on perception performance in autonomous driving scenarios. It provides a comprehensive study of how vehicle-road collaboration can enhance situational awareness.
+   - **Link**: [Cooperative Perception with V2X Communication](https://arxiv.org/abs/2004.07074)
+   - **Year**: 2020
+
+2. **V2VNet: Vehicle-to-Vehicle Communication for Joint Perception and Prediction**
+   - **Description**: V2VNet introduces a framework for vehicle-to-vehicle (V2V) communication that enables joint perception and prediction across multiple vehicles. This approach improves the accuracy and robustness of autonomous driving systems by sharing sensor data and predictive models between vehicles.
+   - **Link**: [V2VNet](https://arxiv.org/abs/2008.07519)
+   - **Year**: 2020
+
+3. **V2XSet: An Extended Dataset for Vehicle-to-Everything (V2X) Cooperative Perception**
+   - **Description**: V2XSet extends existing datasets to include V2X scenarios, providing a rich resource for training and evaluating vehicle-road collaboration algorithms. The paper discusses the challenges of V2X communication and presents baseline results for cooperative perception tasks.
+   - **Link**: [V2XSet](https://arxiv.org/abs/2203.10168)
+   - **Year**: 2022
+
+4. **V2X-Sim: A Simulation Dataset for Multi-Agent Collaborative Perception**
+   - **Description**: V2X-Sim is a simulation dataset designed for multi-agent collaborative perception in V2X scenarios. It provides diverse and challenging environments to train and evaluate vehicle-road collaboration models, focusing on the interaction between vehicles and infrastructure in a simulated setting.
+   - **Link**: [V2X-Sim](https://arxiv.org/abs/2109.12434)
+   - **Year**: 2021
 
 ## Related Work
 
