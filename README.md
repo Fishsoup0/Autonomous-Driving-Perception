@@ -51,55 +51,71 @@ In recent years, 3D object perception has become a crucial component in the deve
 
 # Dataset Resources
 
-## Vehicle-Road Collaboration Datasets
+## Comprehensive Autonomous Driving Datasets
 
-1. **OPV2V **
-   - **Type**: Simulated, Lidar (L), Camera (C)
-   - **Use Cases**: V2V communication.
-   - **Link**: [OPV2V Dataset](https://github.com/DerrickXuNu/OpenCOOD)
+1. **KITTI**
+   - **Type**: Real, Lidar (L), Camera (C)
+   - **Use Cases**: 2D/3D object detection, stereo vision, depth estimation.
+   - **Link**: [KITTI Dataset](http://www.cvlibs.net/datasets/kitti/)
 
-2. **V2X-Sim **
-   - **Type**: Simulated, Lidar (L), Camera (C), GPS/IMU
-   - **Use Cases**: V2V, V2I communication.
-   - **Link**: [V2X-Sim Dataset](https://github.com/AIR-THU/DAIR-V2X)
+2. **nuScenes**
+   - **Type**: Real, Lidar (L), Camera (C), Radar
+   - **Use Cases**: 360-degree perception, object tracking, sensor fusion.
+   - **Link**: [nuScenes Dataset](https://www.nuscenes.org/)
 
-3. **V2XSet **
-   - **Type**: Simulated, Lidar (L), Camera (C)
-   - **Use Cases**: V2V, V2I communication.
-   - **Link**: [V2XSet Dataset](https://github.com/AIR-THU/DAIR-V2X)
+3. **Waymo Open Dataset**
+   - **Type**: Real, Lidar (L), Camera (C)
+   - **Use Cases**: 3D object detection, tracking, segmentation.
+   - **Link**: [Waymo Open Dataset](https://waymo.com/open/)
 
-4. **Rope3D **
-   - **Type**: Real, Camera (C), GPS/IMU
-   - **Use Cases**: Camera-based localization.
-   - **Link**: [Rope3D Dataset](https://github.com/MasterHow/Rope3D)
+## 3D Occupancy Prediction Datasets
 
-5. **DAIR-V2X **
-   - **Type**: Real, Lidar (L), Camera (C), GPS/IMU
-   - **Use Cases**: V2I communication, sensor fusion.
-   - **Link**: [DAIR-V2X Dataset](https://thudair.baai.ac.cn/index)
-
-6. **V2X-Real **
-   - **Type**: Real, Lidar (L), Camera (C), GPS/IMU
-   - **Use Cases**: V2V, V2I, I2I communication.
-   - **Link**: [V2X-Real Dataset](https://github.com/AIR-THU/DAIR-V2X)
-
-## 3D Occupancy Datasets
-
-1. **Occ3D **
+1. **Occ3D**
    - **Type**: Real, Lidar (L), Camera (C)
    - **Use Cases**: 3D occupancy, semantic segmentation.
    - **Link**: [Occ3D Dataset](https://github.com/alexklwong/occ3d)
 
-2. **Semantic KITTI **
+2. **Semantic KITTI**
    - **Type**: Real, Lidar (L)
    - **Use Cases**: Semantic segmentation, SLAM.
    - **Link**: [Semantic KITTI Dataset](http://www.semantic-kitti.org/)
 
-3. **KITTI-360 **
+3. **KITTI-360**
    - **Type**: Real, Lidar (L), Camera (C)
-   - **Use Cases**: Mapping, localization.
+   - **Use Cases**: 360-degree scene reconstruction, mapping, localization.
    - **Link**: [KITTI-360 Dataset](http://www.cvlibs.net/datasets/kitti-360/)
 
+## Vehicle-Road Collaboration Datasets
+
+1. **OPV2V**
+   - **Type**: Simulated, Lidar (L), Camera (C)
+   - **Use Cases**: V2V communication.
+   - **Link**: [OPV2V Dataset](https://github.com/DerrickXuNu/OpenCOOD)
+
+2. **V2X-Sim**
+   - **Type**: Simulated, Lidar (L), Camera (C), GPS/IMU
+   - **Use Cases**: V2V, V2I communication.
+   - **Link**: [V2X-Sim Dataset](https://github.com/AIR-THU/DAIR-V2X)
+
+3. **V2XSet**
+   - **Type**: Simulated, Lidar (L), Camera (C)
+   - **Use Cases**: V2V, V2I communication.
+   - **Link**: [V2XSet Dataset](https://github.com/AIR-THU/DAIR-V2X)
+
+4. **Rope3D**
+   - **Type**: Real, Camera (C), GPS/IMU
+   - **Use Cases**: Camera-based localization.
+   - **Link**: [Rope3D Dataset](https://github.com/MasterHow/Rope3D)
+
+5. **DAIR-V2X**
+   - **Type**: Real, Lidar (L), Camera (C), GPS/IMU
+   - **Use Cases**: V2I communication, sensor fusion.
+   - **Link**: [DAIR-V2X Dataset](https://thudair.baai.ac.cn/index)
+
+6. **V2X-Real**
+   - **Type**: Real, Lidar (L), Camera (C), GPS/IMU
+   - **Use Cases**: V2V, V2I, I2I communication.
+   - **Link**: [V2X-Real Dataset](https://github.com/AIR-THU/DAIR-V2X)
 # Simulators
 
 ## CARLA Simulator
