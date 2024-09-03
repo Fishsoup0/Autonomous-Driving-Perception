@@ -1,7 +1,7 @@
 
 
 <p align="center">
-    <a href="https://arxiv.org/abs/你的论文链接">
+    <a href="https://arxiv.org/abs/2408.16530">
         <img width="350" alt="image" src="assets/image.jpg">
     </a>
 </p>
@@ -12,10 +12,12 @@
     <strong>Shaohua Wang</strong>
     .
     <strong>Yicheng Li</strong>
+        .
+    <strong>Mingchun Liu</strong>
 </p>
 
 <p align="center">
-    <a href='https://arxiv.org/abs/你的论文链接'>
+    <a href='https://arxiv.org/abs/2408.16530'>
         <img src='https://img.shields.io/badge/arXiv-PDF-green?style=flat&logo=arXiv&logoColor=green' alt='arXiv PDF'>
     </a>
 </p>
@@ -31,7 +33,7 @@ This repository will be actively maintained with continuous updates on the lates
 ## Overview
 
 - **Paper Title**: A Comprehensive Review of 3D Object Detection in Autonomous Driving: Technological Advances and Future Directions
-- **Authors**: [Yu Wang](https://scholar.google.com/citations?user=EsZuitIAAAAJ&hl=zh-TW), [Shaohua Wang], [Yicheng Li]
+- **Authors**: [Yu Wang](https://scholar.google.com/citations?user=EsZuitIAAAAJ&hl=zh-TW), Shaohua Wang, Yicheng Li，Mingchun Liu
 - **Link to Paper**: [arXiv](https://arxiv.org/abs/你的论文链接)
 
 ## Abstract
@@ -45,6 +47,73 @@ In recent years, 3D object perception has become a crucial component in the deve
 2. We provide a comprehensive summary, classification, and analysis of the latest methods in camera-based, LiDAR-based, and fusion-based 3D object detection.
 
 3. We offer a panoramic view of perception in autonomous driving environments, not only summarizing the perception methods comprehensively but also compiling datasets and evaluation metrics used by different methods to promote research insights.
+
+
+# Dataset Resources
+
+## Vehicle-Road Collaboration Datasets
+
+1. **OPV2V [24]**
+   - **Type**: Simulated, Lidar (L), Camera (C)
+   - **Use Cases**: V2V communication.
+   - **Link**: [OPV2V Dataset](https://github.com/DerrickXuNu/OpenCOOD)
+
+2. **V2X-Sim [26]**
+   - **Type**: Simulated, Lidar (L), Camera (C), GPS/IMU
+   - **Use Cases**: V2V, V2I communication.
+   - **Link**: [V2X-Sim Dataset](https://github.com/AIR-THU/DAIR-V2X)
+
+3. **V2XSet [25]**
+   - **Type**: Simulated, Lidar (L), Camera (C)
+   - **Use Cases**: V2V, V2I communication.
+   - **Link**: [V2XSet Dataset](https://github.com/AIR-THU/DAIR-V2X)
+
+4. **Rope3D [30]**
+   - **Type**: Real, Camera (C), GPS/IMU
+   - **Use Cases**: Camera-based localization.
+   - **Link**: [Rope3D Dataset](https://github.com/MasterHow/Rope3D)
+
+5. **DAIR-V2X [28]**
+   - **Type**: Real, Lidar (L), Camera (C), GPS/IMU
+   - **Use Cases**: V2I communication, sensor fusion.
+   - **Link**: [DAIR-V2X Dataset](https://thudair.baai.ac.cn/index)
+
+6. **V2X-Real [27]**
+   - **Type**: Real, Lidar (L), Camera (C), GPS/IMU
+   - **Use Cases**: V2V, V2I, I2I communication.
+   - **Link**: [V2X-Real Dataset](https://github.com/AIR-THU/DAIR-V2X)
+
+## 3D Occupancy Datasets
+
+1. **Occ3D [22]**
+   - **Type**: Real, Lidar (L), Camera (C)
+   - **Use Cases**: 3D occupancy, semantic segmentation.
+   - **Link**: [Occ3D Dataset](https://github.com/alexklwong/occ3d)
+
+2. **Semantic KITTI [20]**
+   - **Type**: Real, Lidar (L)
+   - **Use Cases**: Semantic segmentation, SLAM.
+   - **Link**: [Semantic KITTI Dataset](http://www.semantic-kitti.org/)
+
+3. **KITTI-360 [21]**
+   - **Type**: Real, Lidar (L), Camera (C)
+   - **Use Cases**: Mapping, localization.
+   - **Link**: [KITTI-360 Dataset](http://www.cvlibs.net/datasets/kitti-360/)
+
+# Simulators
+
+## CARLA Simulator
+- **Description**: CARLA is an open-source simulator for autonomous driving research. It provides realistic environments and supports various sensors, including cameras, lidar, and GPS. It's widely used for training and testing autonomous driving models in a controlled and customizable environment.
+- **Link**: [CARLA Simulator](https://carla.org/)
+
+## LGSVL Simulator
+- **Description**: LGSVL (now known as SVL Simulator) is an autonomous vehicle simulator developed by LG Electronics. It offers high-fidelity simulations and integrates with popular frameworks like Autoware and Apollo. It's ideal for testing vehicle perception, planning, and control algorithms in complex scenarios.
+- **Link**: [SVL Simulator](https://www.svlsimulator.com/)
+
+## Microsoft AirSim
+- **Description**: AirSim is a cross-platform open-source simulator developed by Microsoft. It supports the simulation of drones, cars, and other vehicles in 3D environments. AirSim is compatible with Unreal Engine and offers APIs for deep integration with machine learning frameworks.
+- **Link**: [Microsoft AirSim](https://github.com/microsoft/AirSim)
+
 
 ## Related Work
 
@@ -450,3 +519,12 @@ We kindly invite you to our platform, Auto Driving Heart, for paper interpretati
 ## Citation
 
 If you find this review useful in your research, please consider citing:
+@misc{wang2024comprehensivereview3dobject,
+      title={A Comprehensive Review of 3D Object Detection in Autonomous Driving: Technological Advances and Future Directions}, 
+      author={Yu Wang and Shaohua Wang and Yicheng Li and Mingchun Liu},
+      year={2024},
+      eprint={2408.16530},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2408.16530}, 
+}
