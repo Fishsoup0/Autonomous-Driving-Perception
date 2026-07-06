@@ -271,13 +271,17 @@ Contributions are welcome! Please follow the entry format `**Method** — Venue 
 If you find this survey and repository useful in your research, please consider citing:
 
 ```bibtex
-@article{wang2024comprehensive,
-  title   = {A Comprehensive Review of 3D Object Detection in Autonomous Driving: Technological Advances and Future Directions},
-  author  = {Wang, Yu and Wang, Shaohua and Li, Yicheng and Liu, Mingchun},
-  journal = {IEEE Sensors Journal},
-  year    = {2025},
-  note    = {TODO: fill in volume, number, pages, and DOI of the published version},
-}
+@ARTICLE{10979274,
+  author={Wang, Yu and Wang, Shaohua and Li, Yicheng and Liu, Mingchun},
+  journal={IEEE Sensors Journal}, 
+  title={Developments in 3-D Object Detection for Autonomous Driving: A Review}, 
+  year={2025},
+  volume={25},
+  number={12},
+  pages={21033-21053},
+  keywords={Three-dimensional displays;Autonomous vehicles;Object detection;Measurement;Sensor fusion;Laser radar;Collaboration;Accuracy;Cameras;Vehicle-to-everything;3-D object detection;autonomous driving;computer vision;deep learning},
+  doi={10.1109/JSEN.2025.3562284}}
+
 ```
 
 arXiv preprint: [arXiv:2408.16530](https://arxiv.org/abs/2408.16530)
