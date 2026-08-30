@@ -1,3 +1,5 @@
+
+
 <div align="center">
 
 [![image](assets/image.jpg)](https://arxiv.org/abs/2408.16530)
@@ -262,7 +264,7 @@ In recent years, 3D object perception has become a crucial component in the deve
 
 ## Contributing
 
-Contributions are welcome! Please follow the entry format `**Method** — Venue Year | [Paper](link) | [Code](link) — one-line description` and open a Pull Request, or simply [open an issue](https://github.com/Fishsoup0/Autonomous-Driving-Perception/issues) with the paper link. See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+Contributions are welcome! Please follow the entry format `**Method** — Venue Year | [Paper](link) | [Code](link) — one-line description` (omit `[Code]` if none exists) and open a Pull Request, or simply [open an issue](https://github.com/Fishsoup0/Autonomous-Driving-Perception/issues) with the paper link. See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ---
 
